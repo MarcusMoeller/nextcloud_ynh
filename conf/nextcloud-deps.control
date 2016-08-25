@@ -4,7 +4,7 @@ Homepage: https://owncloud.org/
 Standards-Version: 3.9.2
 
 Package: nextcloud-deps
-Version: 10.0-2
+Version: 10.0-3
 Depends: acl, php5-cli, php5-apcu, tar, smbclient
 Architecture: all
 Description: meta package for nextcloud dependencies
