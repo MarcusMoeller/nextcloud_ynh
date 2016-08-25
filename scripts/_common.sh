@@ -41,10 +41,10 @@ extract_nextcloud() {
   rm -f "$nc_tarball"
 
   # apply patches
-  (cd "$DESTDIR" \
-   && for p in ${PKGDIR}/patches/*.patch; do \
-        exec_as "$AS_USER" patch -p1 < $p; done) \
-    || ynh_die "Unable to apply patches to Nextcloud"
+  ## (cd "$DESTDIR" \
+  ##  && for p in ${PKGDIR}/patches/*.patch; do \
+  ##       exec_as "$AS_USER" patch -p1 < $p; done) \
+  ##  || ynh_die "Unable to apply patches to Nextcloud"
 }
 
 # Execute a command as another user
